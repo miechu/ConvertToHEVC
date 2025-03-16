@@ -39,7 +39,7 @@ Explanation
   ffmpeg                   Calls FFmpeg (video/audio processing tool).
   -hwaccel videotoolbox    Enables Apple VideoToolbox hardware acceleration for decoding.
   -i "input.mp4"           Specifies the input file (path in JavaScript).
-  -c:v hevc_videotoolbox   Uses H.265 (HEVC) encoding with Appleâ€™s hardware acceleration.
+  -c:v hevc_videotoolbox   Uses H.265 (HEVC) encoding with Apple's hardware acceleration.
   -b:v 5000k               Sets the video bitrate to 5000 kbps (adjust for quality vs. size).
   -vtag hvc1               Ensures Apple-compatible HEVC format for macOS/iOS playback.
   -pix_fmt yuv420p         Converts pixel format to YUV 4:2:0 for maximum device compatibility.
