@@ -3,12 +3,13 @@ Mac Automator QuickAction to covert videos to x265/HEVC using ffmpeg with hadwar
 
 
 # Dependency
-Ffmpeg needs to be installed, the script is configured to use jak ffmpeg installed via brew using command:
+Ffmpeg needs to be installed, the script is configured to use jak ffmpeg installed via Homebrew using command:
 
   ```shell
    brew install ffmpeg
    ``` 
 The ffmpeg should be in */opt/homebrew/bin/ffmpeg* (this can be amended inside the .workflow script).
+If you don't have Homebrew installed, go here: https://brew.sh
 
 
 # Workflow Installation
