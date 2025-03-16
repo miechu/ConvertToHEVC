@@ -1,5 +1,5 @@
 # ConvertToHEVC
-Mac Automator QuickAction to covert video to x265/HEVC using ffmpeg with hadware acceleration.
+Mac Automator QuickAction to covert videos to x265/HEVC using ffmpeg with hadware acceleration.
 
 
 # Dependency
