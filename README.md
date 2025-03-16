@@ -1,6 +1,11 @@
 # ConvertToHEVC
 Mac Automator QuickAction to covert videos to x265/HEVC using ffmpeg with hadware acceleration.
 
+![Screenshot 2025-03-16 at 16 51 32](https://github.com/user-attachments/assets/9bb5c613-3502-4929-8f04-aa3abc602ec5)
+
+Creates a new file at the same location ending with _converted.mp4
+![Screenshot 2025-03-16 at 16 52 35](https://github.com/user-attachments/assets/a006a90d-3728-4e00-a77d-dd485617504f)
+
 
 # Dependency
 Ffmpeg needs to be installed, the script is configured to use jak ffmpeg installed via Homebrew using command:
@@ -17,7 +22,9 @@ Download the .workflow file and open it - Automator will ask to install it and t
 
 
 # Usage
-Right click videos to convert, pick Quick Actions -> Convert to HEVC
+Right click videos to convert, pick Quick Actions -> Convert to HEVC. When converting a gear icon will show up.
+
+![Screenshot 2025-03-16 at 16 52 54](https://github.com/user-attachments/assets/0ae58986-9283-4064-b4df-b2ee258f8ec9)
 
 
 # Ffmpeg parameters used
